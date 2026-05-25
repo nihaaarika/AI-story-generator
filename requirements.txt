@@ -1,0 +1,20 @@
+# ── Core ──────────────────────────────────────────────
+gradio>=4.0.0
+python-dotenv>=1.0.0
+requests>=2.31.0
+
+# ── AI Providers (install the one you use) ────────────
+groq>=0.4.0
+openai>=1.0.0
+anthropic>=0.25.0
+
+# ── Audio (Text-to-Speech) ────────────────────────────
+gTTS>=2.5.0
+
+# ── Optional: offline TTS fallback ────────────────────
+# pyttsx3>=2.90
+
+# ── Optional: Stable Diffusion (heavy, needs GPU) ─────
+# torch>=2.0.0
+# diffusers>=0.21.0
+# transformers>=4.35.0
