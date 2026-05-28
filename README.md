@@ -73,16 +73,7 @@ pip install -r requirements.txt
 ```bash
 # Copy the example file
 cp .env.example .env
-```
 
-Open `.env` and fill in your keys:
-
-```env
-OPENAI_API_KEY=your_openai_api_key_here
-HF_TOKEN=your_huggingface_token_here
-```
-
-> ⚠️ **Never commit your `.env` file.** It is already listed in `.gitignore`.
 
 ### 5. Load the story database
 
